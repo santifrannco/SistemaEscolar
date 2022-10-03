@@ -1,0 +1,25 @@
+C:\Users\alext\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\alext\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\alext\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\alext\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.FormCargarApp.resources
+C:\Users\alext\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\alext\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\SistemaEscolar.vbproj.GenerateResource.Cache
+C:\Users\alext\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+C:\Users\alext\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Users\alext\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+C:\Users\alext\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.FormInicioSesion.resources
+D:\Facu 2do Ano\Programacion con BASE DE DATOS\SistemaEscolar2\SistemaEscolar\SistemaEscolar\bin\Debug\SistemaEscolar.exe
+D:\Facu 2do Ano\Programacion con BASE DE DATOS\SistemaEscolar2\SistemaEscolar\SistemaEscolar\bin\Debug\SistemaEscolar.pdb
+D:\Facu 2do Ano\Programacion con BASE DE DATOS\SistemaEscolar2\SistemaEscolar\SistemaEscolar\bin\Debug\SistemaEscolar.xml
+D:\Facu 2do Ano\Programacion con BASE DE DATOS\SistemaEscolar2\SistemaEscolar\SistemaEscolar\obj\x86\Debug\WindowsApplication1.FormCargarApp.resources
+D:\Facu 2do Ano\Programacion con BASE DE DATOS\SistemaEscolar2\SistemaEscolar\SistemaEscolar\obj\x86\Debug\WindowsApplication1.FormInicioSesion.resources
+D:\Facu 2do Ano\Programacion con BASE DE DATOS\SistemaEscolar2\SistemaEscolar\SistemaEscolar\obj\x86\Debug\WindowsApplication1.Resources.resources
+D:\Facu 2do Ano\Programacion con BASE DE DATOS\SistemaEscolar2\SistemaEscolar\SistemaEscolar\obj\x86\Debug\SistemaEscolar.vbproj.GenerateResource.Cache
+D:\Facu 2do Ano\Programacion con BASE DE DATOS\SistemaEscolar2\SistemaEscolar\SistemaEscolar\obj\x86\Debug\SistemaEscolar.exe
+D:\Facu 2do Ano\Programacion con BASE DE DATOS\SistemaEscolar2\SistemaEscolar\SistemaEscolar\obj\x86\Debug\SistemaEscolar.xml
+D:\Facu 2do Ano\Programacion con BASE DE DATOS\SistemaEscolar2\SistemaEscolar\SistemaEscolar\obj\x86\Debug\SistemaEscolar.pdb
+D:\Facu 2do Ano\Programacion con BASE DE DATOS\SistemaEscolar2\SistemaEscolar\SistemaEscolar\obj\x86\Debug\SistemaEscolar.vbprojResolveAssemblyReference.cache
+D:\Facu 2do Ano\Programacion con BASE DE DATOS\SistemaEscolar2\SistemaEscolar\SistemaEscolar\obj\x86\Debug\WindowsApplication1.MENÚ.resources
+D:\Facu 2do Ano\Programacion con BASE DE DATOS\SistemaEscolar2\SistemaEscolar\SistemaEscolar\obj\x86\Debug\WindowsApplication1.FormAgregarAlumno.resources
+D:\Facu 2do Ano\Programacion con BASE DE DATOS\SistemaEscolar2\SistemaEscolar\SistemaEscolar\obj\x86\Debug\WindowsApplication1.FormCargarGrilla.resources
+D:\Facu 2do Ano\Programacion con BASE DE DATOS\SistemaEscolar2\SistemaEscolar\SistemaEscolar\obj\x86\Debug\WindowsApplication1.FormUsuarioLogin.resources
