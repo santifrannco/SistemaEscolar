@@ -11,7 +11,6 @@ Public Class FormAgregarAlumno
         CMBsexo.Text = ""
         TXTano.Text = ""
     End Sub
-
     Private Sub BTNagregar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BTNagregar.Click
         'primero controlo que esten los datos cargados
         'And Trim(TXTfecha_inscp.Text) = ""
@@ -79,5 +78,10 @@ Public Class FormAgregarAlumno
     Private Sub BTNsalirr_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BTNsalirr.Click
         Me.Close()
         MENÚ.Show()
+    End Sub
+
+    Private Sub BTNAgregarImagenAlum_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BTNAgregarImagenAlum.Click
+        FormCargarImagenAlum.Show()
+        Me.Hide()
     End Sub
 End Class

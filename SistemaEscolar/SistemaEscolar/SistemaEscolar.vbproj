@@ -76,6 +76,12 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormCargarImagenAlum.Designer.vb">
+      <DependentUpon>FormCargarImagenAlum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCargarImagenAlum.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormUsuarioLogin.Designer.vb">
       <DependentUpon>FormUsuarioLogin.vb</DependentUpon>
     </Compile>
@@ -131,6 +137,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormCargarImagenAlum.resx">
+      <DependentUpon>FormCargarImagenAlum.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCargarGrilla.resx">
       <DependentUpon>FormCargarGrilla.vb</DependentUpon>
     </EmbeddedResource>

@@ -45,38 +45,44 @@ Partial Class FormAgregarAlumno
         Me.Label8 = New System.Windows.Forms.Label()
         Me.dtpFecha_insc = New System.Windows.Forms.DateTimePicker()
         Me.dtpFecha_Naci = New System.Windows.Forms.DateTimePicker()
+        Me.BTNAgregarImagenAlum = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'BTNsalirr
         '
-        Me.BTNsalirr.Location = New System.Drawing.Point(367, 222)
+        Me.BTNsalirr.BackColor = System.Drawing.Color.OrangeRed
+        Me.BTNsalirr.Location = New System.Drawing.Point(468, 198)
         Me.BTNsalirr.Name = "BTNsalirr"
-        Me.BTNsalirr.Size = New System.Drawing.Size(87, 37)
+        Me.BTNsalirr.Size = New System.Drawing.Size(112, 46)
         Me.BTNsalirr.TabIndex = 11
-        Me.BTNsalirr.Text = "Salir"
-        Me.BTNsalirr.UseVisualStyleBackColor = True
+        Me.BTNsalirr.Text = "SALIR"
+        Me.BTNsalirr.UseVisualStyleBackColor = False
         '
         'BTNagregar
         '
-        Me.BTNagregar.Location = New System.Drawing.Point(255, 222)
+        Me.BTNagregar.BackColor = System.Drawing.Color.Aquamarine
+        Me.BTNagregar.Location = New System.Drawing.Point(315, 198)
         Me.BTNagregar.Name = "BTNagregar"
-        Me.BTNagregar.Size = New System.Drawing.Size(87, 37)
+        Me.BTNagregar.Size = New System.Drawing.Size(112, 46)
         Me.BTNagregar.TabIndex = 10
-        Me.BTNagregar.Text = "Agregar"
-        Me.BTNagregar.UseVisualStyleBackColor = True
+        Me.BTNagregar.Text = "GUARDAR"
+        Me.BTNagregar.UseVisualStyleBackColor = False
         '
         'lbl7
         '
         Me.lbl7.AutoSize = True
-        Me.lbl7.Location = New System.Drawing.Point(63, 45)
+        Me.lbl7.BackColor = System.Drawing.Color.Transparent
+        Me.lbl7.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl7.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.lbl7.Location = New System.Drawing.Point(42, 35)
         Me.lbl7.Name = "lbl7"
-        Me.lbl7.Size = New System.Drawing.Size(26, 13)
+        Me.lbl7.Size = New System.Drawing.Size(37, 19)
         Me.lbl7.TabIndex = 40
         Me.lbl7.Text = "DNI"
         '
         'TXTdni
         '
-        Me.TXTdni.Location = New System.Drawing.Point(95, 42)
+        Me.TXTdni.Location = New System.Drawing.Point(99, 34)
         Me.TXTdni.Name = "TXTdni"
         Me.TXTdni.Size = New System.Drawing.Size(100, 20)
         Me.TXTdni.TabIndex = 1
@@ -84,54 +90,63 @@ Partial Class FormAgregarAlumno
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(222, 97)
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label6.Location = New System.Drawing.Point(269, 88)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(52, 13)
+        Me.Label6.Size = New System.Drawing.Size(82, 19)
         Me.Label6.TabIndex = 38
         Me.Label6.Text = "Direccion"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(454, 45)
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label5.Location = New System.Drawing.Point(524, 37)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(44, 13)
+        Me.Label5.Size = New System.Drawing.Size(71, 19)
         Me.Label5.TabIndex = 37
         Me.Label5.Text = "Apellido"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(222, 45)
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label4.Location = New System.Drawing.Point(269, 38)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(44, 13)
+        Me.Label4.Size = New System.Drawing.Size(70, 19)
         Me.Label4.TabIndex = 36
         Me.Label4.Text = "Nombre"
         '
         'TXTdireccion
         '
-        Me.TXTdireccion.Location = New System.Drawing.Point(313, 90)
+        Me.TXTdireccion.Location = New System.Drawing.Point(381, 84)
         Me.TXTdireccion.Name = "TXTdireccion"
         Me.TXTdireccion.Size = New System.Drawing.Size(100, 20)
         Me.TXTdireccion.TabIndex = 5
         '
         'TXTapellido
         '
-        Me.TXTapellido.Location = New System.Drawing.Point(545, 42)
+        Me.TXTapellido.Location = New System.Drawing.Point(645, 35)
         Me.TXTapellido.Name = "TXTapellido"
         Me.TXTapellido.Size = New System.Drawing.Size(100, 20)
         Me.TXTapellido.TabIndex = 3
         '
         'TXTnombre
         '
-        Me.TXTnombre.Location = New System.Drawing.Point(313, 45)
+        Me.TXTnombre.Location = New System.Drawing.Point(382, 36)
         Me.TXTnombre.Name = "TXTnombre"
         Me.TXTnombre.Size = New System.Drawing.Size(100, 20)
         Me.TXTnombre.TabIndex = 2
         '
         'TXTciudad
         '
-        Me.TXTciudad.Location = New System.Drawing.Point(95, 90)
+        Me.TXTciudad.Location = New System.Drawing.Point(99, 87)
         Me.TXTciudad.Name = "TXTciudad"
         Me.TXTciudad.Size = New System.Drawing.Size(100, 20)
         Me.TXTciudad.TabIndex = 4
@@ -139,15 +154,18 @@ Partial Class FormAgregarAlumno
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(50, 97)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label1.Location = New System.Drawing.Point(31, 88)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(40, 13)
+        Me.Label1.Size = New System.Drawing.Size(64, 19)
         Me.Label1.TabIndex = 44
         Me.Label1.Text = "Ciudad"
         '
         'TXTfecha_nac
         '
-        Me.TXTfecha_nac.Location = New System.Drawing.Point(557, 248)
+        Me.TXTfecha_nac.Location = New System.Drawing.Point(630, 212)
         Me.TXTfecha_nac.Name = "TXTfecha_nac"
         Me.TXTfecha_nac.Size = New System.Drawing.Size(100, 20)
         Me.TXTfecha_nac.TabIndex = 45
@@ -155,9 +173,12 @@ Partial Class FormAgregarAlumno
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(422, 96)
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label2.Location = New System.Drawing.Point(478, 85)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(106, 13)
+        Me.Label2.Size = New System.Drawing.Size(167, 19)
         Me.Label2.TabIndex = 46
         Me.Label2.Text = "Fecha de nacimiento"
         '
@@ -165,7 +186,7 @@ Partial Class FormAgregarAlumno
         '
         Me.CMBsexo.FormattingEnabled = True
         Me.CMBsexo.Items.AddRange(New Object() {"Masculino", "Femenino"})
-        Me.CMBsexo.Location = New System.Drawing.Point(95, 145)
+        Me.CMBsexo.Location = New System.Drawing.Point(99, 136)
         Me.CMBsexo.Name = "CMBsexo"
         Me.CMBsexo.Size = New System.Drawing.Size(100, 21)
         Me.CMBsexo.TabIndex = 7
@@ -173,31 +194,37 @@ Partial Class FormAgregarAlumno
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(50, 148)
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label3.Location = New System.Drawing.Point(31, 139)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(31, 13)
+        Me.Label3.Size = New System.Drawing.Size(48, 19)
         Me.Label3.TabIndex = 48
         Me.Label3.Text = "Sexo"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(201, 148)
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
+        Me.Label7.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label7.Location = New System.Drawing.Point(207, 138)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(105, 13)
+        Me.Label7.Size = New System.Drawing.Size(168, 19)
         Me.Label7.TabIndex = 49
         Me.Label7.Text = "Fecha de inscripcion"
         '
         'TXTfecha_inscp
         '
-        Me.TXTfecha_inscp.Location = New System.Drawing.Point(557, 222)
+        Me.TXTfecha_inscp.Location = New System.Drawing.Point(630, 182)
         Me.TXTfecha_inscp.Name = "TXTfecha_inscp"
         Me.TXTfecha_inscp.Size = New System.Drawing.Size(100, 20)
         Me.TXTfecha_inscp.TabIndex = 50
         '
         'TXTano
         '
-        Me.TXTano.Location = New System.Drawing.Point(545, 141)
+        Me.TXTano.Location = New System.Drawing.Point(645, 138)
         Me.TXTano.Name = "TXTano"
         Me.TXTano.Size = New System.Drawing.Size(100, 20)
         Me.TXTano.TabIndex = 9
@@ -205,16 +232,19 @@ Partial Class FormAgregarAlumno
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(463, 148)
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
+        Me.Label8.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label8.Location = New System.Drawing.Point(537, 139)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(26, 13)
+        Me.Label8.Size = New System.Drawing.Size(40, 19)
         Me.Label8.TabIndex = 52
         Me.Label8.Text = "Año"
         '
         'dtpFecha_insc
         '
         Me.dtpFecha_insc.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dtpFecha_insc.Location = New System.Drawing.Point(313, 146)
+        Me.dtpFecha_insc.Location = New System.Drawing.Point(381, 137)
         Me.dtpFecha_insc.MinDate = New Date(2022, 9, 2, 0, 0, 0, 0)
         Me.dtpFecha_insc.Name = "dtpFecha_insc"
         Me.dtpFecha_insc.Size = New System.Drawing.Size(101, 20)
@@ -223,11 +253,22 @@ Partial Class FormAgregarAlumno
         'dtpFecha_Naci
         '
         Me.dtpFecha_Naci.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.dtpFecha_Naci.Location = New System.Drawing.Point(545, 91)
+        Me.dtpFecha_Naci.Location = New System.Drawing.Point(645, 86)
         Me.dtpFecha_Naci.MaxDate = New Date(2022, 10, 3, 0, 0, 0, 0)
         Me.dtpFecha_Naci.Name = "dtpFecha_Naci"
-        Me.dtpFecha_Naci.Size = New System.Drawing.Size(94, 20)
+        Me.dtpFecha_Naci.Size = New System.Drawing.Size(100, 20)
         Me.dtpFecha_Naci.TabIndex = 6
+        Me.dtpFecha_Naci.Value = New Date(2022, 10, 3, 0, 0, 0, 0)
+        '
+        'BTNAgregarImagenAlum
+        '
+        Me.BTNAgregarImagenAlum.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.BTNAgregarImagenAlum.Location = New System.Drawing.Point(156, 198)
+        Me.BTNAgregarImagenAlum.Name = "BTNAgregarImagenAlum"
+        Me.BTNAgregarImagenAlum.Size = New System.Drawing.Size(112, 46)
+        Me.BTNAgregarImagenAlum.TabIndex = 53
+        Me.BTNAgregarImagenAlum.Text = "AGREGAR FOTO"
+        Me.BTNAgregarImagenAlum.UseVisualStyleBackColor = False
         '
         'FormAgregarAlumno
         '
@@ -235,7 +276,8 @@ Partial Class FormAgregarAlumno
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(704, 271)
+        Me.ClientSize = New System.Drawing.Size(777, 257)
+        Me.Controls.Add(Me.BTNAgregarImagenAlum)
         Me.Controls.Add(Me.dtpFecha_Naci)
         Me.Controls.Add(Me.dtpFecha_insc)
         Me.Controls.Add(Me.Label8)
@@ -260,7 +302,7 @@ Partial Class FormAgregarAlumno
         Me.Controls.Add(Me.TXTnombre)
         Me.Name = "FormAgregarAlumno"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "Agregar Alumno"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -287,4 +329,5 @@ Partial Class FormAgregarAlumno
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents dtpFecha_insc As System.Windows.Forms.DateTimePicker
     Friend WithEvents dtpFecha_Naci As System.Windows.Forms.DateTimePicker
+    Friend WithEvents BTNAgregarImagenAlum As System.Windows.Forms.Button
 End Class
